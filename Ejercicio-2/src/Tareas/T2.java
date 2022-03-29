@@ -31,7 +31,7 @@ public class T2 extends Tarea{
                 System.out.println("Valor Y1 desde T2 = " + (Tarea.y1));
                 System.out.println("Valor Y2 desde T2 = " + (Tarea.y2));
             }
-            System.out.println("Cantidad = " + (Tarea.cantidad));
+            //System.out.println("Cantidad = " + (Tarea.cantidad));
         }
     }
 }
