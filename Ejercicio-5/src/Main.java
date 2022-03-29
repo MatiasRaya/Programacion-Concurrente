@@ -22,7 +22,7 @@ public class Main {
                 Hacemos que el hilo se duerma por x segundos
                 Si el tiempo es muy bajo, no se puede realizar la busqueda correctamente
              */
-            TimeUnit.SECONDS.sleep(5);
+            TimeUnit.SECONDS.sleep(1);
         }
         catch (InterruptedException e){
             e.printStackTrace();
