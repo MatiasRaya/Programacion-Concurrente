@@ -20,7 +20,7 @@ public class Main {
             thread.start();
             threads[i] = thread;
         }
-        
+
         for (int i = 0; i < numberSensor; i++) {
             try {
                 //Hacemos un join para esperar que cada hilo termine
