@@ -7,9 +7,14 @@ public class Main {
         Task task = new Task();
         //Creamos un hilo y le pasamos como parámetro el elemento de la clase Task
         Thread thread = new Thread(task);
-        thread.setUncaughtExceptionHandler(new ExceptionHandler());
+        //thread.setUncaughtExceptionHandler(new ExceptionHandler());
         //Lanzamos el hilo
-        thread.start();
+        try {
+            thread.run();
+        }
+        catch (NumberFormatException nfe) {
+            System.out.println("I got the exception!");
+        }
 
         try {
             //Esperamos a que termine de ejecutarse
