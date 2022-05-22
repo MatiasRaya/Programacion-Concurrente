@@ -10,7 +10,8 @@ public class Main {
         //Declaramos el tamaño de la matriz
         final int ROWS = 10000;
         final int NUMBERS = 1000;
-        final int SEARCH = 9;
+        final int SEARCH = 9;           //Si cambio este valor, tengo que ver que coincida con el valor en la línea 28 del main
+                                        //en caso de que no sean iguales, vamos a tener discrepancias
         final int PARTICIPANTS = 5;
         //Decimos cuantas filas va a analizar cada participante
         final int LINES_PARTICIPANT = 2000;
